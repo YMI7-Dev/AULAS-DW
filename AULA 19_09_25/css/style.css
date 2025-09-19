@@ -1,0 +1,10 @@
+body{
+    background-color: aqua;
+}
+
+ul{
+    margin: 3%;
+    border: 2px solid blue;
+    border-radius: 4%;
+    padding: 2px;
+}
