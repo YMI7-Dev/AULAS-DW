@@ -5,19 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        p{
+            color: #fa12fa;
+            font-weight: bold;
+        }
+
+        #Paragrafo-1{
+            color: darkorange;
+            font-weight: 200;
+        }
+
+        #Paragrafo-2{
+            color: lightsalmon;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            border: 2px solid darkcyan;
+        }
+
+        p{
+            color: #ccc;
+        }
+
+        .zebra{
+            background-color: aquamarine;
+            padding: 5px 15px;
+        }
+    </style>
 </head>
 <body>
+
+    <h1 style="color: crimson;">Style Inline só funciona dentro de uma tag</h1>
+
+    <h1></h1>
     <ul>
         <li>
             <a href="index.html" style="color:green">pagina inicial</a>
         </li>
         <li>
             <a href="index.html" style="font-family: Arial; font-size: 12px; color: blue; text-align: center;">
-                MADIOCA
+                Voltar
             </a>
         </li>
     </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio modi impedit aliquid, repudiandae aut, nemo a fuga itaque delectus odio, ipsum animi? Animi accusantium eos hic eveniet reprehenderit esse odio.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sint ad fugiat doloremque qui quo dolores sequi necessitatibus id culpa ullam magnam, incidunt quam tenetur dignissimos, voluptatum saepe cumque. Id.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident delectus deleniti voluptatem dolorum consectetur ea totam. Impedit a aspernatur harum saepe qui, ratione culpa adipisci dicta nemo at commodi.</p>
+
+    <p id="Paragrafo-1">Tenho um ID</p>
+
+    <p id="Paragrafo-2">EU também</p>
+
     <br>
-    <img src="imgs/pinto.gif">
+    <img src="imgs/juca.gif">
+
+    <ol>
+        <li class="zebra">Capivara 1</li>
+        <li >Capivara 2</li>
+        <li class="zebra">Capivara 3</li>
+        <li>Capivara 4</li>
+        <li class="zebra">Capivara 5</li>
+        <li>Capivara 6</li>
+    </ol>
+    <div style="background-color: lightskyblue; height: 200px; width: 200px;">
+        <div style="background-color: yellow; height: 100px; width: 100px">
+            <b style="background-color :lightgreen; padding: 0px 0px 0px 0px;">Padding</b>
+            <i style="margin 0px 0px 0px 0px">Margin</i>
+        </div>
+    </div>
 </body>
 </html>
