@@ -17,7 +17,7 @@ body {
 
 header {
     height: 100px;
-    background-color: #c5c3c7;
+    background-color: #4f0996;
 }
 
 .menu-superior ul {
@@ -32,7 +32,7 @@ header {
 
 .menu-superior li a {
     display: block;
-    color: rgb(32, 35, 172);
+    color: rgb(181, 25, 212);
     text-align: center;
     font-size: 16px;
     padding: 41px 25px;
@@ -41,40 +41,28 @@ header {
 
 .menu-superior li a:hover {
     background-color: rgb(64, 65, 161);
-    color: white;
+    color: rgb(255, 255, 255);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     transform: translate(-20px);
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    background-color: #ad7cc0;
-}
-
-footer p {
-    text-align: center;
-    padding: 18px 0;
-}
-
 .container {
-    background-color: #550fb1;
+    background-color: #33076b;
     padding: 0 20%;
-    height: calc(100% - 154px);
+    min-height: 100%;
+    padding-bottom: 100px;
 }
 
 .main {
-    background-color: #1f0fb1;
+    background-color: #11066d;
     min-height: 100%;
     padding: 20px;
 }
 
 .main h1 {
     text-align: center;
-    color: #ee08bc;
+    color: #388d16;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -90,4 +78,22 @@ footer p {
 
 .link{
     color:aqua;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #ad7cc0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    padding: 12px 0;
 }
